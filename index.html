@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Let's guess it together. A guessing game with good UI.">
+    <meta name="keywords" content="guessingGame, game, guessing, javascript, html, css, website, webapp, websitegame">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap" rel="stylesheet">
+    <title>Guess the Number</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="flex-container">
+
+                <div class="main-heading">
+                    <h2>I have a number Between 1-10. <br> Can you Guess!</h2>
+                </div>
+                <span class="emoji" style="font-size: 50px;"> 👦 </span>
+                           
+        <div class="message-block">
+            <p class="message">I will help You</p>
+        </div>
+
+                <div class="number">
+                    <input type="number" class="num">
+                    <div class="guess-button">
+                        <button class="guess btn">Guess</button>
+                        <button class="restart btn" onclick="start()">Restart</button>
+                    </div>
+                </div>
+
+
+                <div class="details">
+                    <p class="lifes">You have <span class="chances">3</span> changes</p>
+
+                </div>
+
+
+        </div>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
